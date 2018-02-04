@@ -7,18 +7,16 @@ set NEXT_SHORT to "n"
 set PREVIOUS to "prev"
 set PREVIOUS_SHORT to "p"
 set LOVE to "love"
-set LOVE_SHORT to "lv"
+set LOVE_SHORT to "l"
 set VOLUME_UP to "volu"
 set VOLUME_DOWN to "vold"
 set VOLUME_UP_SHORT to "vu"
 set VOLUME_DOWN_SHORT to "vd"
+set LYRICS to "lyrics"
+set LYRICS_SHORT to "r"
 
 
 if query is equal to PAUSE or query is equal to PAUSE_SHORT then
-  tell application "System Events"
-  	key code 18 using {command down, option down, control down, shift down}
-  end tell
-else if query is equal to "" then
   tell application "System Events"
   	key code 18 using {command down, option down, control down, shift down}
   end tell
@@ -41,5 +39,9 @@ else if query is equal to VOLUME_UP or query is equal to VOLUME_UP_SHORT then
 else if query is equal to VOLUME_DOWN or query is equal to VOLUME_DOWN_SHORT then
   tell application "System Events"
     key code 23 using {command down, option down, control down, shift down}
-  end tell
+    end tell
+else if query is equal to LYRICS or query is equal to LYRICS_SHORT then
+  tell application "System Events"
+    key code 26 using {command down, option down, control down, shift down}
+    end tell
 end if
