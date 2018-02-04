@@ -1,4 +1,4 @@
-# 网易音乐 Alfred 控制器
+# NeteaseMusic Alfred Controller
 
 ![Screenshot](./img/alfred-screenshot.png)
 
@@ -18,12 +18,13 @@
 
 |关键字|功能描述|
 |------|--------|
-|`nm` or `nm p`|暂停与播放|
-|`nm nx` or `nm next`|下一首列表中的歌曲|
-|`nm pr` or `nm previous`|上一首列表中的歌曲|
-|`nm lv` or `nm love`|为当前歌曲加心|
-|`nm vu` or `nm volumup`|增加音量|
-|`nm vd` or `nm volumdown`|减小音量|
+|`n ` or `n pause`|暂停/播放|
+|`n n` or `nm next`|下一首列表中的歌曲|
+|`n p` or `nm previous`|上一首列表中的歌曲|
+|`n l` or `nm love`|为当前歌曲加心|
+|`n vu` or `nm volumup`|增加音量|
+|`n vd` or `nm volumdown`|减小音量|
+|`n r` or `n lyrics` |显示/关闭歌词|
 
 **参考资源**
 
