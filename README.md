@@ -17,11 +17,11 @@
 |关键字|功能|
 |------|--------|
 |`n ` or `n pause`|暂停/播放|
-|`n n` or `nm next`|下一首|
-|`n p` or `nm previous`|上一首|
-|`n l` or `nm love`|为当前歌曲加心|
-|`n vu` or `nm volumup`|增加音量|
-|`n vd` or `nm volumdown`|减小音量|
+|`n n` or `n next`|下一首|
+|`n p` or `n previous`|上一首|
+|`n l` or `n love`|为当前歌曲加心|
+|`n vu` or `n volumup`|增加音量|
+|`n vd` or `n volumdown`|减小音量|
 |`n r` or `n lyrics` |显示/关闭歌词|
 
 ## 其他
